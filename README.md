@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 ElementPlus Admin Demo
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+This is a project for learning Nuxt3.
 
 ## Setup
 
@@ -25,5 +25,3 @@ Build the application for production:
 ```bash
 yarn build
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
