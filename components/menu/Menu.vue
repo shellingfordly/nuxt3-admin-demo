@@ -32,12 +32,8 @@ function handleSelect(path: string) {
         <span>功能</span>
       </template>
       <el-menu-item index="/feature/icon">图标</el-menu-item>
-      <el-sub-menu index="2-2">
-        <template #title><span>item four</span></template>
-        <el-menu-item index="2-2-1">item one</el-menu-item>
-      </el-sub-menu>
     </el-sub-menu>
-    <el-menu-item index="3">
+    <el-menu-item index="/about">
       <el-icon><document /></el-icon>
       <template #title>关于我</template>
     </el-menu-item>

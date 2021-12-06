@@ -13,5 +13,6 @@ const prefix = "nuxt-layout-default-content";
   flex: 1;
   padding: 15px;
   background-color: #eee;
+  overflow: auto;
 }
 </style>
