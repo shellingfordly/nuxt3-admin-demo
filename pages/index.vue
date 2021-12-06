@@ -4,4 +4,4 @@
   <h1>This is Home Page.</h1>
 </template>
 
-<style scoped lang="less"></style>
+<style scoped></style>

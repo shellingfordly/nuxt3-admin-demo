@@ -2,6 +2,6 @@
   <NuxtPage />
 </template>
 
-<script>
-import "element-plus/dist/index.css";
-</script>
+<style lang="scss">
+@import "~/styles/init.scss";
+</style>

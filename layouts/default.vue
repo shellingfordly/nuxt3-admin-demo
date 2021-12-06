@@ -3,8 +3,8 @@ const prefix = "nuxt-layout-default";
 </script>
 
 <template>
-  <div :class="`${prefix}-container`">
-    <div :class="`${prefix}-menu`">
+  <div :class="prefix">
+    <div :class="`${prefix}-left`">
       <Menu></Menu>
     </div>
     <div :class="`${prefix}-right`">
@@ -18,4 +18,16 @@ const prefix = "nuxt-layout-default";
   </div>
 </template>
 
-<style scoped lang="less"></style>
+<style scoped lang="scss">
+.nuxt-layout-default {
+  display: flex;
+  height: 100%;
+
+  &-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+</style>

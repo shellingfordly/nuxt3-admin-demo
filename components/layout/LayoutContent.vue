@@ -1,9 +1,17 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const prefix = "nuxt-layout-default-content";
+</script>
 
 <template>
-  <div class="container">
+  <div :class="prefix">
     <slot />
   </div>
 </template>
 
-<style scoped lang="less"></style>
+<style scoped lang="scss">
+.nuxt-layout-default-content {
+  flex: 1;
+  padding: 15px;
+  background-color: #eee;
+}
+</style>
